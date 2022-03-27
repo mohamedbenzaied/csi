@@ -1,0 +1,52 @@
+:root {
+  --primary-color:#66fcf1;
+  --secondary-color: #868dc3;
+  --third-color:#adb8d1; 
+  --darkest-color: #0b0710;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--secondary-color);
+  background-color:var(--darkest-color);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body div{
+  position: relative;
+}
+@media (max-width:1281px){
+  html{
+    font-size: 15px;
+  }
+}
+@media (max-width:1024px){
+  html{
+    font-size: 14px;
+  }
+}
+@media(max-width: 767px){
+  html{
+    font-size: 12px;
+  }
+}
